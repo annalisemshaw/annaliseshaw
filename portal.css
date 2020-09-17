@@ -1,3 +1,6 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
 }
+header, footer {
+    background-color: rgb(15, 110, 212);
+}
