@@ -9,6 +9,7 @@
         border-radius: 10px;
     }
     img {
+        float: right;
         width: 200px;
         height: auto;
         border-radius: 0px 10px 0px 0px;
