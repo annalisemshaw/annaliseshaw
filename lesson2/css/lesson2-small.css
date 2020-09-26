@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@media only screen and (min-width: 200px) {
+	.whiteSpace, .proximity, .alignment {
+	grid-column: 1/6;
+}
+}
+.page-header {
+	max-width: 100%;
+    padding: 15px;
+    text-align: center; 
+    background-color: #abd4ff;
+    color: #678edb;
+    font-size: 2.5rem;
+    font-family: 'Jua', serif;
+    border-radius: 10px;
+    }
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	grid-gap: 1.5em;
+}
+.whiteSpace, .proximity, .alignment {
+	margin: 15px;
+}
+.section-header {
+	text-align: center;
+	font-family: 'Jua', san-serif;
+	color: #678edb;
+	font-size: 25px;
+}
+a {
+	font-family: 'Jua', san-serif;
+}
+img {
+	max-width: 100%;
+}
+p {
+	border: 3px solid #678edb;
+	font-family: 'Jua', san-serif;
+	margin: 10px;
+	padding: 20px;
+}

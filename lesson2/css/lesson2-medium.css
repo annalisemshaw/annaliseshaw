@@ -1,0 +1,12 @@
+@media only screen and (min-width: 700px) {
+.whiteSpace {
+    grid-column: 1/1;
+    text-align: center;
+}
+.proximity {
+	grid-column: 2/3;
+}
+.alignment {
+	grid-column: 3/3;
+}
+}
