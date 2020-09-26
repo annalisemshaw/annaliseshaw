@@ -3,10 +3,14 @@
     grid-column: 1/1;
     text-align: center;
 }
-.proximity {
-	grid-column: 2/3;
-}
 .alignment {
 	grid-column: 3/3;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	justify-content: center;
+	grid-gap: 1.5em;
 }
 }

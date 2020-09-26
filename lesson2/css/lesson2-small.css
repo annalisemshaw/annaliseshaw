@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 @media only screen and (min-width: 200px) {
 	.whiteSpace, .proximity, .alignment {
-	grid-column: 1/6;
+	grid-column: 1/1;
 }
 }
 .page-header {
@@ -16,7 +16,8 @@
     }
 .container {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
 	justify-content: center;
 	grid-gap: 1.5em;
 }

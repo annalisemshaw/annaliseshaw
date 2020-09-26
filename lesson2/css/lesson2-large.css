@@ -1,5 +1,18 @@
 @media only screen and (min-width: 1125px) {
 .whiteSpace {
     grid-column: 1/1;
-    text-align: center;
+}
+.alignment {
+    grid-column: 2/2;
+}
+.proximity {
+    grid-column: 3/3;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	justify-content: center;
+	grid-gap: 1.5em;
+}
 }
