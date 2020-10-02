@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 header {
     background-color: #edd100;
     border-radius: 4px;
+}
+nav {
+    background-color: 4f8a8b;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    flex: 1 1 100%;
+}
+body {
+ font-family: 'Secular One', sans-serif;
 }
