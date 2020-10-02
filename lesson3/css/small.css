@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-header {
+@media only screen and (min-width: 37.5em) {
+
+header, footer {
     background-color: #edd100;
     border-radius: 4px;
 }
 nav {
-    background-color: 4f8a8b;
+    background-color: #4f8a8b;
+    text-align: center;
+	box-shadow: 0 2px 15px gray;
 }
 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     display: flex;
 }
 nav ul li {
@@ -14,4 +22,5 @@ nav ul li {
 }
 body {
  font-family: 'Secular One', sans-serif;
+}
 }
