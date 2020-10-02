@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 @media only screen and (min-width: 200px) {
-	.whiteSpace, .proximity, .alignment {
+.whiteSpace, .proximity, .alignment {
 	grid-column: 1/1;
-}
 }
 .page-header {
 	max-width: 100%;
@@ -41,4 +40,5 @@ p {
 	font-family: 'Jua', san-serif;
 	margin: 10px;
 	padding: 20px;
+}
 }
