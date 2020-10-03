@@ -33,16 +33,15 @@ nav ul li a {
     padding: 0.75rem;
 }
 nav ul {
-    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: flex;
-}
-nav ul li {
-    flex: 1 1 100%;
 }
 body {
  font-family: 'Secular One', sans-serif;
+ background-color: #eeee;
+}
+.color-scheme-img {
+    max-width: 100%;
 }
