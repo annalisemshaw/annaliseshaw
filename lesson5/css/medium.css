@@ -9,5 +9,10 @@
     header button {
         display: none;
     }
-	nav ul.hide {display: flex;}
+    nav ul.hide {display: flex;}
+    .idaho-img {
+        width: 300px;
+        float: right;
+        margin: 10px;
+    }
 }
