@@ -148,5 +148,4 @@ section {
 .contact-icons {
     display: flex;
     flex-direction: row;
-    padding: 10px;
 }
