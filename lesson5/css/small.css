@@ -124,3 +124,29 @@ section {
     text-indent: 25px;
     padding: 10px;
 }
+.contact {
+    margin: 0 auto;
+    align-content: center;
+    background-color: #4f8a8b;
+    display: flex;
+    flex-direction: row;
+}
+.map-img {
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.icon {
+    max-width: 25px;
+    padding: 5px;
+}
+.contact-icons {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
