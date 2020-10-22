@@ -1,3 +1,3 @@
 function toggleNav() {
-    console.log("it worked");
+    console.log(document.getElementById('primaryNav').classList);
 }
