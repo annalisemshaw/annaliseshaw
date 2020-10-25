@@ -10,4 +10,14 @@
         display: none;
     }
     nav ul.hide {display: flex;}
+    .summary {
+        position: absolute;
+        top: 400px;
+        left: 50px;
+        background: radial-gradient(#eee, #578ecf);
+        border: 1px solid #000;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
+    }
 }

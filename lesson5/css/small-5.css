@@ -129,16 +129,11 @@ section {
     align-content: center;
     background-color: #4f8a8b;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .map-img {
     width: 300px;
     float: left;
-    padding: 10px;
-}
-.contact-info {
-    display: flex;
-    flex-direction: column;
     padding: 10px;
 }
 .icon {
