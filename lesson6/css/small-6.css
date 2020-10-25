@@ -104,9 +104,8 @@ section {
 .weather-info {
     text-align: center;
 }
-picture {
+main picture.hero {
     width: 100%;
-    height: 300px;
 }
 
 main picture.hero img {width: 100%;}

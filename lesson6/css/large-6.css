@@ -20,4 +20,10 @@
         box-shadow: 0 0 30px #111;
         opacity: .8;
     }
+    main picture.hero {
+        width: 100%;
+        max-height: 300px;
+    }
+    
+    main picture.hero img {width: 100%;}
 }
