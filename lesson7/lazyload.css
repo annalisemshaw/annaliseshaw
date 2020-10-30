@@ -6,8 +6,11 @@ main {
     grid-template-columns: 1fr;
     justify-items: center;
 }
-picture img {
+picture img[data-src]{
     filter: blur(0.1em);
+    }
+picture img {
+    filter: blur(0em);
     transition: filter 0.5s;
     max-width: 300px;
     margin: 0 auto;
