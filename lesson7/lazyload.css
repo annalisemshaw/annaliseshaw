@@ -1,0 +1,12 @@
+body {
+    font-family: 'Josefin Slab', sans-serif;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.ceilings {
+    height: 400px;
+    width: 300px;
+}
