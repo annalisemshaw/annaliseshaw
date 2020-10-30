@@ -6,7 +6,9 @@ main {
     grid-template-columns: 1fr;
     justify-items: center;
 }
-.ceilings {
+picture img {
     height: 400px;
     width: 300px;
+    filter: blur(0px);
+    transition: 0.5s;
 }
