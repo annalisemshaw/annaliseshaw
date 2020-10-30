@@ -7,8 +7,9 @@ main {
     justify-items: center;
 }
 picture img {
-    height: 400px;
-    width: 300px;
-    filter: blur(0px);
-    transition: 0.5s;
+    filter: blur(0.1em);
+    transition: filter 0.5s;
+    max-width: 300px;
+    margin: 0 auto;
+    height: 300px;
 }
