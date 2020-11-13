@@ -1,0 +1,26 @@
+body {
+    font-family: 'Josefin Slab', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+section {
+    text-align: center;
+    background-color: #82abed;
+    color: white;
+}
+img {
+    padding: 10px;
+}
+footer {
+    background-color: #2462c7;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
