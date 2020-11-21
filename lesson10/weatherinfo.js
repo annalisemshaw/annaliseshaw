@@ -31,7 +31,7 @@ fetch(forecastURL)
         var day = dayOfWeek[date.getDay()];
         if (time == '18:00:00' && x <= 5) {
             document.getElementById('day' + x).textContent = day;
-            document.getElementById('temp' + x).textContent = jsObject.list[i].main.temp;
+            document.getElementById('temp' + x).textContent = Math.floor(jsObject.list[i].main.temp);
 
             const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png';
             const desc = jsObject.list[i].weather[0].description;
