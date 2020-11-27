@@ -1,0 +1,19 @@
+@media only screen and (min-width: 32em){
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        padding: 0.75em;
+        margin: auto;
+    }
+    header button {
+        display: none;
+    }
+    nav ul.hide {display: flex;}
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    figcaption {visibility: hidden;}
+}
