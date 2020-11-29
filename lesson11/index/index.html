@@ -28,7 +28,12 @@
 </nav>
 
 <main>
-    <img src="/lesson11/index/imgs/home-hero-img.png" alt="home hero image" class="hero">
+    <picture class="hero">
+        <source media="(max-width: 300px)" srcset="imgs/home-hero-img-small.png">
+        <source media="(max-width: 500px)" srcset="imgs/home-hero-img-medium.png">
+        <source media="(max-width: 800px)" srcset="imgs/home-hero-img.png">
+        <img src="imgs/home-hero-img.png" alt="hero-img">
+    </picture>
     <div class="cards">
     </div>
 </main>

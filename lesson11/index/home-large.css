@@ -24,4 +24,9 @@
     section:nth-child(even){
         flex-direction: column;
     }
+    main picture.hero {
+        width: 100%;
+    }
+    
+    main picture.hero img {width: 100%;}
 }

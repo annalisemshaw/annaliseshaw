@@ -28,4 +28,9 @@
         padding: 10px;
         margin: 0 auto;
     }
+    main picture.hero {
+        width: 100%;
+    }
+    
+    main picture.hero img {width: 100%;}
 }
