@@ -126,42 +126,16 @@ th, td {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.5em;
 }
-* {box-sizing: border-box}
-.mySlides {display: none}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
 img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin-right: 20px;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: .6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  margin: 20px;
 }
 
 /* Caption text */
@@ -186,7 +160,6 @@ img {vertical-align: middle;}
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -196,16 +169,16 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active {
   background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
@@ -220,5 +193,16 @@ img {vertical-align: middle;}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .text {font-size: 11px}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 550px) {
+  .text {font-size: 11px}
+  main {display: grid; grid-template-columns: 1fr; grid-template-rows: .25fr 1fr .5fr}
+  .slideshow-container {grid-row: 3/4; grid-column: 1/2;}
+  .company-values {width: 100%; justify-content: center;}
+  .guarantee {padding: 30px;}
+  footer {padding: 20px;}
+  table {width: 100%;}
 }
