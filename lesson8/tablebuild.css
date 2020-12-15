@@ -24,13 +24,3 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
     background-color: #e7ffed;
 }
-.nov-goal {
-    background-color: #628ca6;
-    color: white;
-}
-.black-fri {
-    text-align: center;
-}
-tfoot {
-    background-color: #7fb9c2;
-}

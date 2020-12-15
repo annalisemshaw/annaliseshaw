@@ -1,0 +1,46 @@
+{
+"rentals": [
+    {
+        "name": "Honda Metro Scooter",
+        "price1": "$20",
+        "price2": "$30",
+        "price3": "$25",
+        "price4": "$35"
+    },
+    {
+        "name": "Honda Dio Scooter",
+        "price1": "$30",
+        "price2": "$40",
+        "price3": "$45",
+        "price4": "$55"
+    },
+    {
+        "name": "Honda PCX150 Scooter",
+        "price1": "$40",
+        "price2": "$50",
+        "price3": "$45",
+        "price4": "$55"
+    },
+    {
+        "name": "Honda Pioneer ATV",
+        "price1": "$50",
+        "price2": "$70",
+        "price3": "$60",
+        "price4": "80"
+    },
+    {
+        "name": "Jeep Wrangler - 4 door w/ AC",
+        "price1": "$70",
+        "price2": "100",
+        "price3": "$85",
+        "price4": "$125"
+    },
+    {
+        "name": "Jeep Wrangler - 2 door",
+        "price1": "$60",
+        "price2": "$85",
+        "price3": "$70",
+        "price4": "$90"
+    }
+]
+}
