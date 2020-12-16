@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Script&family=Pacifico&family=Sacramento&family=Ultra&display=swap');
+body {
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+main {
+    display: grid;
+}
+html {
+	height: 100%;
+}
+.navbar-brand {
+	font-family: 'Bebas Neue', san-serif;;
+}
+li {
+	font-family: 'Pacifico', san-serif;
+}
+.jumbotron {
+    background-image: url(https://images.unsplash.com/photo-1511587455743-2722afc8c62a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+    text-align: center;
+	padding: 10%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 13px rgba(0,0,0,0.1);
+}
+.slogan {
+	text-shadow: 0px 4px 3px rgb(240, 120, 156),
+				 0px 8px 13px rgb(240, 192,73),
+				 0px 18px 13px rgba(0,0,0,0.1);
+}
+.btn {
+	font-family: 'Bebas Neue', sans-serif;
+	color: #f0789c;
+}
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+	font-family: 'Bebas Neue', sans-serif;
+}
+hr {
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+h2 {
+	font-family: 'League Script', sans-serif;	
+}
+main {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+	.image1 {
+	background-image: url(https://images.unsplash.com/photo-1595167543180-e7894b577443?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+	}
+
+	.image2 {
+  	background-image: url(https://images.unsplash.com/photo-1595567377120-2b50a3f2ba3f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2081&q=80);
+	}
+	.image3 {
+	background-image: url(https://images.unsplash.com/photo-1597131743979-2e9f29f7b389?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjkyfHxob25kYSUyMHNjb290ZXJ8ZW58MHwwfDB8&auto=format&fit=crop&w=800&q=60);
+	}
+	.image4 {
+	background-image: url(https://images.unsplash.com/photo-1569266494548-cbe923baea66?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80);	
+	}
+	.image5 {
+	background-image: url(https://images.unsplash.com/photo-1500381369072-1e8259ca5ed4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80);
+	}
+	.image6 {
+	background-image: url(https://images.unsplash.com/photo-1581293738510-077bb089a20a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDh8fGplZXAlMjB3cmFuZ2xlcnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+	}
+	.image {
+ 	width: 100%;
+ 	height: 250px;
+  	background-size: cover;
+	background-position: center;
+    }
+    .figure-caption{
+        color: #f0789c;
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        padding: 10px;
+	}
+	footer {
+		bottom: 0;
+		width: 100%;
+		line-height: 40px;
+		background-color: #f5f5f5;
+		display: inline-flex;
+		justify-content: space-evenly;
+		color: rgba(0, 0, 0, 0.589);
+		font-family: 'Bebas Neue', sans-serif;
+	}
+	li {
+		list-style: none;
+		text-decoration: none;
+	}
+	.contact-info {
+		background-color: #f8f8f8;
+	
+	}
+	.icon {
+		max-width: 3rem;
+		padding: .5rem;
+	}
+	p.locations {
+		font-family: 'Bebas Neue', sans-serif;
+	}
+	.thumbnail {
+		align-items: center;
+	}
+	.map {
+		padding-top: 20px;
+	}

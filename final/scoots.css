@@ -35,7 +35,6 @@ li {
 	font-family: 'Bebas Neue', sans-serif;
 	color: #f0789c;
 }
-
 h1 {
 	font-weight: 700;
 	font-size: 5em;
@@ -205,4 +204,7 @@ img {vertical-align: middle;}
   .guarantee {padding: 30px;}
   footer {padding: 20px;}
   table {width: 100%;}
+}
+.map {
+  padding-top: 20px;
 }
