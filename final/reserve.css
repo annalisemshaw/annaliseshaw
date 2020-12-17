@@ -6,8 +6,6 @@ body {
 }
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 25% 75%;
 }
 html {
 	height: 100%;
@@ -19,7 +17,7 @@ li {
 	font-family: 'Pacifico', san-serif;
 }
 .jumbotron {
-    background-image: url(https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1191&q=80);
+    background-image: url(https://images.unsplash.com/photo-1533760881669-80db4d7b4c15?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1649&q=80);
 	text-align: center;
 	padding: 10%;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
@@ -39,7 +37,6 @@ h1 {
 	font-weight: 700;
 	font-size: 5em;
 	font-family: 'Bebas Neue', sans-serif;
-	color: #F0C049;
 }
 hr {
 	border-top: 1px solid #f8f8f8;
@@ -75,4 +72,77 @@ p.locations {
 }
 .map {
     padding-top: 20px;
+}
+.services-container {
+    background-color: lightskyblue;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px rgb(240, 120, 156),
+    0px 8px 13px rgb(240, 192,73),
+    0px 18px 13px rgba(0,0,0,0.1);
+}
+.service-h2 {
+    text-align: center;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px rgb(240, 120, 156),
+    0px 8px 13px rgb(240, 192,73),
+    0px 18px 13px rgba(0,0,0,0.1);
+}
+th, td {
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.table-header {
+    font-size: 60px;
+}
+.form-container {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.form-control {
+    display: block;
+    width: 75%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid lightskyblue;
+    border-radius: .25rem;
+    font-family: 'Bebas Neue', sans-serif;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+form {
+    padding: 1.5rem;
+    padding-bottom: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    border: solid .2rem #e3e3e3;
+    border-radius: 5px;
+}
+.form-group {
+    padding: 5px;
+}
+label {
+    color: #f0789c;
+}
+.btn-primary {
+    background-color: #e3e3e3;
+    border-color: #e3e3e3;
+    color: #f0789c;
+}
+button {
+    font-family: 'Bebas Neue', sans-serif;
+}
+form label {
+    font-family: 'Bebas Neue', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    footer {padding: 20px; display: flex; flex-direction: column;}
+    table {width: 100%;}
+  }
+@media only screen and (max-width: 900px) {
+    .contact-info {padding: 20px;}
 }

@@ -191,20 +191,18 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   .text {font-size: 11px}
   main {display: grid; grid-template-columns: 1fr; grid-template-rows: .25fr 1fr .5fr}
   .slideshow-container {grid-row: 3/4; grid-column: 1/2;}
   .company-values {width: 100%; justify-content: center;}
   .guarantee {padding: 30px;}
-  footer {padding: 20px;}
+  footer {padding: 20px; display: flex; flex-direction: column;}
   table {width: 100%;}
 }
 .map {
   padding-top: 20px;
+}
+@media only screen and (max-width: 900px) {
+  .contact-info {padding: 20px;}
 }
