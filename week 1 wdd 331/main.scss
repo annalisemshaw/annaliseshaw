@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+html {
+    width: 100%;
+}
+header {
+    background-color: #6495ED;
+    text-align: right;
+    padding: 20px 20px;
+}
+nav li, nav li:visited {
+    list-style: none;
+    font-family: Helvetica, sans-serif;
+    padding: 10px 0px 10px;
+}
+nav li:hover {
+    color: white;
+    text-decoration: underline;
+}
+nav li:active {
+    color: #DEB887;
+}
+header a, header a:visited {
+    color: #FAEBD7;
+    text-decoration: none;
+}
+main {
+    background-color: #FAEBD7;
+    padding-top: 40px;
+}
+h1, h2 {
+    font-family: 'Lora', sans-serif;
+}
+article {
+    padding-bottom: 25px;
+}
+article a, article a:visited {
+    text-decoration: none;
+    color: black;
+}
+article a:active {
+    color: #DEB887;
+}
+article a:hover {
+    color: #6495ED;
+    text-decoration: underline;
+}
+section.post-content {
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(191, 191, 191);
+    width: 85%;
+    margin: auto;
+    padding: 25px;
+}
+figure {
+    text-align: center;
+    margin-top: 50px;
+}
+.post-date {
+    font-family: Helvetica, sans-serif;
+    color: #808080;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p a, p a:visited {
+    color: #6495ED;
+    text-decoration: none;
+}
+p a:active {
+    color: #DEB887;
+}
+p a:hover {
+    color: #6495ED;
+    text-decoration: underline;
+}
+@media (min-width: 700px) {
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'menu main main main main main';
+    }
+    .item2 { grid-area: main;}
+    .item3 { grid-area: menu;}
+}
