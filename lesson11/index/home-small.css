@@ -14,12 +14,10 @@ header {
 footer {
     background-color: #efb84d;
     border-radius: 4px;
-    align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
-    /* padding: 10px; */
 }
 header,
 nav,
