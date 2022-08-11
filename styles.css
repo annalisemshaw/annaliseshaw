@@ -29,6 +29,7 @@ body {
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-9px, 6px);
+  background-color: black
 }
 
 .change .bar2 {opacity: 0;}
@@ -36,6 +37,7 @@ body {
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
+  background-color: black
 }
 
 .navLinks {
