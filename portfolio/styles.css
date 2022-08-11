@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-/* Variables */
-$bg-color: white;
-$hover-color: grey;
-$nav-bg-color: #5CFFF7;
-
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +11,7 @@ body {
   color: #eee;
 }
 
-//Navigation
+/* Navigation Menu */
 .menu-icon {
     display: inline-block;
     cursor: pointer;
@@ -25,7 +20,7 @@ body {
   .bar1, .bar2, .bar3 {
     height: 5px;
     width: 35px;
-    background-color: $bg-color;
+    background-color: white;
     margin: 6px;
     transition: 0.4s;
     border-radius: 3px;
@@ -53,7 +48,7 @@ body {
     left: 0;
     z-index: 1;
     overflow: hidden;
-    background-color: $nav-bg-color;
+    background-color: #5CFFF7;
     transition: 0.5s;
     font-family: 'Bebas Neue';
   }
@@ -77,7 +72,7 @@ body {
   }
   
   .change .navLinks li:hover {
-      color: $hover-color;
+      color: grey;
       font-weight: bold;
   }
   
@@ -87,7 +82,7 @@ body {
     }
   }
 
-//Home Content
+/* Home Content */
 .container {
   height: 100vh;
   display: flex;
