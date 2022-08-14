@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: black;
+  color: #eee;
+}
+
+/* Navigation Menu */
+.navbar-style {
+  background-color: #5CFFF7;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.navbar-nav, .navbar a {
+  font-size: 2rem;
+}
+
+/* Contact Form */
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/portfolio/assets/pawel-czerwinski-fwJnAu6sXhs-unsplash\ \(1\).jpg);
+}
+
+.contact-card {
+  border: 3px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px #a1a1a162;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px;
+  width: 90%;
+}
+
+.contact-title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.contact-subtitle {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.card {
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  position: relative;
+}
+
+.card-content {
+  flex: 1 1 auto;
+  padding: 1rem;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  font-size: 2.5rem;
+}
