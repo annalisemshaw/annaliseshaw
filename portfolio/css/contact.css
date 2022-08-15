@@ -60,6 +60,7 @@ main {
   flex-direction: column;
   min-width: 0;
   position: relative;
+  --bs-card-height: 95%;
 }
 
 .card-content {
@@ -71,5 +72,5 @@ main {
 form {
   display: block;
   margin-top: 0em;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
