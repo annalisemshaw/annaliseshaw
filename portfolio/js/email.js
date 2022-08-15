@@ -1,4 +1,5 @@
 const btn = document.getElementById('button');
+const my_form = document.getElementById('form')
 
 document.getElementById('form')
  .addEventListener('submit', function(event) {
@@ -13,7 +14,7 @@ document.getElementById('form')
     .then(() => {
       btn.value = 'Send Message';
       alert('Sent!');
-      form.reset();
+      my_form.reset();
     }, (err) => {
       btn.value = 'Send Message';
       alert(JSON.stringify(err));
