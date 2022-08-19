@@ -18,10 +18,10 @@ body {
 }
 
 .navbar-brand {
-  font-size: 3rem;
+  padding-right: 20px;
 }
 
-.navbar-nav, .navbar-item {
+.navbar-nav, .navbar a {
   font-size: 2rem;
 }
 
