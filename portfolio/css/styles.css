@@ -17,10 +17,6 @@ body {
   font-family: 'Bebas Neue', sans-serif;
 }
 
-.navbar-brand {
-  padding-right: 20px;
-}
-
 .navbar-nav, .navbar a {
   font-size: 2rem;
 }
