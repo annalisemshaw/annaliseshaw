@@ -72,9 +72,14 @@ main {
 form {
   display: block;
   margin-top: 0em;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 form button {
   width: 100%;
+}
+
+#button {
+  background-color: #5CFFF7;
+  border: none;
 }
