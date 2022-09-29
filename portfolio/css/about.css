@@ -36,7 +36,7 @@ body {
 
 .about-me {
     display: flex;
-    padding: 75px;
+    padding: 25px 75px;
     color: white;
 }
 
