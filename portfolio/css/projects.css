@@ -12,6 +12,7 @@ body {
   color: #eee;
   background: rgb(49,140,252);
   background: linear-gradient(90deg, rgba(49,140,252,1) 14%, rgba(49,184,252,1) 71%);
+  width: 100vw
 }
 
 /* Navigation Menu */
@@ -30,7 +31,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px 75px 75px;
+  padding: 25px;
 }
 
 div.card {
@@ -83,10 +84,12 @@ img.project-img {
 }
 
 @media only screen and (max-width: 720px) {
+
   .card-body {
     flex-direction: column;
   }
   img.project-img {
-    height: 300px;
+    width: 400px;
+    height: 260px;
   }
 }

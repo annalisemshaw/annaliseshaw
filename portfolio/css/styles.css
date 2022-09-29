@@ -25,6 +25,7 @@ body {
 
 /* Home Content */
 .main-content-container {
+  background-repeat: no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
