@@ -8,19 +8,19 @@
 }
 body {
   font-family: 'Bebas Neue', sans-serif;
-  background-color: #000;
-  color: #eee;
-  background-image: url(/portfolio/assets/Blue\ Gradient\ Desktop\ Wallpaper\ \(3\).png);
+  background-image: url(/portfolio/assets/Blue\ Gradient\ Desktop\ Wallpaper\ \(1\).png);
 }
 
 /* Navigation Menu */
 .navbar-style {
-  background: linear-gradient(90deg, #00d2ff 0%, #4756f7 100%);
+  background: rgb(49,140,252);
+  background: linear-gradient(90deg, rgba(49,140,252,1) 14%, rgba(49,184,252,1) 71%);
   font-family: 'Bebas Neue', sans-serif;
 }
 
 .navbar-nav, .navbar a {
   font-size: 2rem;
+  color: white;
 }
 
 /* Home Content */
@@ -39,7 +39,7 @@ body {
   letter-spacing: 0.1rem;
   text-align: center;
   overflow: hidden;
-  color: black;
+  color: white;
   font-family: 'Bebas Neue', sans-serif;
 }
 

@@ -10,18 +10,20 @@ body {
   font-family: 'Bebas Neue', sans-serif;
   background-color: #000;
   color: #eee;
-  background-image: url(/portfolio/assets/Blue\ Gradient\ Desktop\ Wallpaper\ \(3\).png);
-  object-fit: fill;
+  background: rgb(49,140,252);
+  background: linear-gradient(90deg, rgba(49,140,252,1) 14%, rgba(49,184,252,1) 71%);
 }
 
 /* Navigation Menu */
 .navbar-style {
-  background: linear-gradient(90deg, #00d2ff 0%, #4756f7 100%);
+  background: rgb(49,140,252);
+  background: linear-gradient(90deg, rgba(49,140,252,1) 14%, rgba(49,184,252,1) 71%);
   font-family: 'Bebas Neue', sans-serif;
 }
 
 .navbar-nav, .navbar a {
   font-size: 2rem;
+  color:white;
 }
 
 main {
@@ -45,7 +47,7 @@ div.card {
 }
 
 img.project-img {
-  width: 500px;
+  width: 468px;
   height: 200px;
   padding: 0px 10px;
 }
@@ -57,6 +59,7 @@ img.project-img {
 
 .card-info {
   padding: 10px 10px 0px;
+  color: white;
 }
 
 .card-title {
@@ -71,10 +74,19 @@ img.project-img {
 }
 
 .card-link {
-  color: black;
+  color: white;
 }
 
 .card-link:hover {
   text-decoration: underline;
   color: black;
+}
+
+@media only screen and (max-width: 720px) {
+  .card-body {
+    flex-direction: column;
+  }
+  img.project-img {
+    height: 300px;
+  }
 }

@@ -8,19 +8,20 @@
 }
 body {
   font-family: 'Bebas Neue', sans-serif;
-  background-color: black;
-  color: #eee;
-  background-image: url(/portfolio/assets/Blue\ Gradient\ Desktop\ Wallpaper\ \(3\).png);
+  background: rgb(49,140,252);
+  background: linear-gradient(90deg, rgba(49,140,252,1) 14%, rgba(49,184,252,1) 71%);
 }
 
 /* Navigation Menu */
 .navbar-style {
-  background: linear-gradient(90deg, #00d2ff 0%, #4756f7 100%);
+  background: rgb(49,140,252);
+  background: linear-gradient(90deg, rgba(49,140,252,1) 14%, rgba(49,184,252,1) 71%);
   font-family: 'Bebas Neue', sans-serif;
 }
 
 .navbar-nav, .navbar a {
   font-size: 2rem;
+  color: white;
 }
 
 /* Contact Form */
