@@ -84,12 +84,16 @@ img.project-img {
 }
 
 @media only screen and (max-width: 720px) {
-
+  main {
+    width: auto;
+    height: auto;
+  }
   .card-body {
     flex-direction: column;
   }
   img.project-img {
-    width: 400px;
-    height: 260px;
+    position: relative;
+    width: 100%;
+    height: auto;
   }
 }
